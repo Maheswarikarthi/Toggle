@@ -1,0 +1,114 @@
+/* * {
+  background-color: aqua;
+}
+.small {
+  align-items: center;
+}
+.large {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 2px;
+  padding: 40px;
+  background-color: white;
+  height: 350px;
+  width: 700px;
+  font-weight: bold;
+  font-family: "arial";
+  margin: 175px;
+  margin-left: 500px;
+}
+.large img {
+  width: 100px;
+  background-color: white;
+  height: 100px;
+}
+.large h2 {
+  background-color: white;
+  font-size: 35px;
+}
+.large h3 {
+  font-size: 25px;
+  background-color: white;
+}
+.large .btn .click {
+  cursor: pointer;
+  width: 150px;
+  height: 65px;
+  background-color: rgb(32, 94, 217);
+  color: white;
+  font-size: 20px;
+}
+.large p {
+  background-color: white;
+  font-size: 20px;
+}
+.small .content .p {
+  background-color: white;
+} */
+
+* {
+  background-color: aqua;
+}
+
+.small {
+  display: flex;
+  align-items: center;
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 40px;
+  background-color: white;
+  height: 350px;
+  width: 700px;
+  font-weight: bold;
+  font-family: "Arial";
+  margin: 175px auto;
+}
+
+.large img {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.large h2 {
+  background-color: white;
+  font-size: 35px;
+}
+
+.large h3 {
+  font-size: 25px;
+  background-color: white;
+}
+
+.btn .click {
+  cursor: pointer;
+  width: 150px;
+  height: 65px;
+  background-color: rgb(32, 94, 217);
+  color: white;
+  font-size: 20px;
+}
+
+.large p {
+  background-color: white;
+  font-size: 20px;
+}
+
+.small .content {
+  background-color: white;
+}
+
+.btn .content p {
+  background-color: white;
+}
